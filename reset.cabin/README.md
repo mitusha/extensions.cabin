@@ -1,6 +1,6 @@
 #reset.cabin.css
 
-A comprehensive reset file based on [Eric Meyer](http://meyerweb.com/eric/tools/css/reset/)'s reset.
+A comprehensive reset file based on the excellent [Eric Meyer](http://meyerweb.com/eric/tools/css/reset/) reset.
 
 ##How to include this extension
 
