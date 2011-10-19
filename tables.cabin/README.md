@@ -1,10 +1,27 @@
-##Cabin Extension: Tables
+#tables.cabin.css
 This extensions will add some styles to tables in your project. You can use this extension as a starting point to further style your tables.
 
-##How to use
-Download the <code>tables.cabin.css</code> file and place it in your <code>/css</code> folder. 
+##How to include this extension
 
-Open up your HTML document and add the following in the <code>&lt;head&gt;</code> section:
-<pre><code>&lt;link rel="stylesheet" href="css/cabin.css" /&gt;
-&lt;link rel="stylesheet" href="css/tables.cabin.css" /&gt;
+There are 2 ways to include this extension .css file in your project:
+
+<pre><code>@charset "UTF-8";
+@import url("tables.cabin.css");
+/*==================================================*/
+/*  Cabin CSS Framework 1.0.4 by Adam Whitcroft     */
+/*  hello[at]adamwhitcroft[dot]com                  */
+/*  @adamwhitcroft                                  */
+/*==================================================*/
+</code></pre>
+
+Or, you can add a <code>&lt;link /&gt;</code> inside the <code>&lt;head&gt;</code> of your page <strong>after</strong> the core <code>cabin.css</code> link.
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;head&gt;
+  &lt;title&gt;Let's hug kittens!&lt;title&gt;
+  &lt;!-- Core Cabin .css file --&gt;
+  &lt;link rel="stylesheet" href="cabin.css" /&gt;
+  &lt;!-- Cabin extension .css file --&gt;
+  &lt;link rel="stylesheet" href="tables.cabin.css" /&gt;
+&lt;/head&gt;
 </code></pre>
