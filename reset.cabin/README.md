@@ -20,9 +20,11 @@ Or, you can add a <code>&lt;link /&gt;</code> inside the <code>&lt;head&gt;</cod
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;head&gt;
   &lt;title&gt;Let's hug kittens!&lt;title&gt;
+  &lt;!-- Cabin reset .css file --&gt;
+  &lt;link rel="stylesheet" href="reset.cabin.css" /&gt;
   &lt;!-- Core Cabin .css file --&gt;
   &lt;link rel="stylesheet" href="cabin.css" /&gt;
-  &lt;!-- Cabin extension .css file --&gt;
-  &lt;link rel="stylesheet" href="reset.cabin.css" /&gt;
 &lt;/head&gt;
 </code></pre>
+
+Make sure you link to the <code>reset.cabin.css</code> <strong>before</strong> your <code>cabin.css</code> file, otherwise the reset will override <em>everything</em>.
